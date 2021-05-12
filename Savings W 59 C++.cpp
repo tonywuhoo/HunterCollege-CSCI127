@@ -1,0 +1,34 @@
+//Name: Tony Wu
+//Email: tony.wu54@myhunter.cuny.edu
+//Function: Does stuff
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    float start;
+    int year = 1;
+    
+    cout<< "Please enter the starting amount: ";
+    cin>>start;
+    float endValue = start + 1000;
+    while (start < endValue)
+    {
+        if (year<=5)
+        {
+            
+            start = start * 1.05;
+            
+        }
+        if (year>5 && year<11)
+        {
+            
+            start = start * 1.10;
+            
+        }
+        cout << "Year " << year <<" "<< start << fixed << setprecision(2) << endl;
+        year++;
+    }
+    return 0;
+}
