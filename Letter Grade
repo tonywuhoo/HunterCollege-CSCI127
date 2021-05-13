@@ -1,0 +1,29 @@
+//Name: Tony Wu
+//Email: tony.wu54@myhunter.cuny.edu
+//Function: Base off your letter, will return a numerical grade
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+
+{
+    int grade;
+    cout << "Enter Grade: ";
+    cin >> grade; 
+    if (grade < 60){
+        cout << "Your letter grade F";
+    }
+    else if (grade < 80){
+        cout << "Your letter grade is C or D";
+    }
+    else if (grade < 90){ 
+        cout << "Your letter grade is B";
+    }
+    else { 
+        cout << "Your letter grade is A";
+    }
+    
+    return 0;
+}
