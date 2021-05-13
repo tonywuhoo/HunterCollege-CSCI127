@@ -1,0 +1,20 @@
+//Name: Tony Wu
+//Email: tony.wu54@myhunter.cuny.edu
+//Function: Simple C++ program that converts inches to feet
+
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    float inches;
+    cout << "Please enter length in inches: ";
+    cin >> inches;
+    float feet;
+    feet = inches / 12;
+    cout <<"The length is " << feet << "ft.";
+
+    return 0;
+}
