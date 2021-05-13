@@ -1,0 +1,19 @@
+#Name: Tony Wu
+#Email: tony.wu54@myhunter.cuny.edu
+#Function: A fun little Discord program written in Python that gives you heads or tails, enjoy :)
+
+import asyncio
+import random
+import discord
+
+BOT_PREFIX = ("?", "!")
+TOKEN = 'INSERT DISCORD TOKEN'
+
+@client.command()
+async def coinflip(ctx):
+    possible_responses = [
+        'Tails' ,
+        'Heads' ,
+    ]
+    await ctx.send(random.choice(possible_responses))
+   
