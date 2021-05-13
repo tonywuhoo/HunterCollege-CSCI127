@@ -1,0 +1,11 @@
+#Name:  Tony Wu
+#Email: tony.wu54@myhunter.cuny.edu
+#Date: March 4, 2021
+#Converts Fahreheit to Celsius
+
+celsius1 = input('Please enter the temperature in degrees Celsius: ')
+celsius2 = float(celsius1)
+Fahrenheit = ( celsius2 * 1.8 ) + 32
+Fahrenheit2 = str(Fahrenheit)
+
+print('The temperature is '+Fahrenheit2+' degrees Fahrenheit')
